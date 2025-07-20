@@ -7,7 +7,7 @@
   <img src="./imgs/awesome-github-copilot.svg" alt="Awesome Copilot Instructions" height="300">
 </div>
 
-<h4 align="center">✨ A curated list of awesome GitHub copilot-instructions.md files for enhancing your GitHub Copilot AI experience.</h4>
+<h4 align="center">✨ A curated list of awesome GitHub instructions, prompt and chatmode markdown files for enhancing your GitHub Copilot AI experience.</h4>
 
 <!--lint enable remark-lint:awesome-badge-->
 
@@ -27,8 +27,6 @@
 ## Contents
 
 - [Why Copilot Instructions](#why-copilot-instructions)
-  - []()
-- [Chatmodes](#chatmodes)
 - [Instructions](#instructions)
   - [Boilerplates & Templates](#boilerplates--templates)
   - [Language & Stack](#language--stack)
@@ -36,7 +34,9 @@
   - [Tools](#tools)
   - [Workflows](#workflows)
 - [Prompts](#prompts)
-  - [AI Development Tasks](#ai-development-tasks)
+  - [AI Development Tasks](#ai-development-tasks-1)
+- [Chatmodes](#chatmodes)
+  - [AI Development Tasks](#ai-development-tasks-2)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
 
@@ -46,80 +46,80 @@
 
 **Tip**: Learn more about Copilot Instructions in the [VS Code documentation](https://code.visualstudio.com/docs/copilot/copilot-customization).
 
-## Chatmodes
-
-### AI Development Tasks
-
-- [PRD Creation](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/chatmodes/ai-development-tasks/prd-creation.chatmode.md)
-
 ## Instructions
+
+Instructions provides Copilot with repository-specific context, such as coding standards, frameworks, or workflows, to improve code suggestions.
 
 ### Boilerplates & Templates
 
-#### Language Templates
+#### Templates
 
-- [Standard Language Template](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/templates/standard-language/copilot-instructions.md)
+- [Standard Language Template](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/boilerplate-and-templates/standard-language.instructions.md) - Standard language template to build instruction files.
+
+#### Boilerplate
+
+- [Standard IaC Tools Boilerplate](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/boilerplate-and-templates/standard-iac-tools.instructions.md) - Standard tool boilerplate for infrastructure-as-code tools.
 
 ### Language & Stack
 
 #### C
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/c/c.instructions.md)
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/c/c.instructions.md) - System libraries, CLI tools, and embedded applications with POSIX/GNU libc.
 
 #### C#
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/csharp/csharp.instructions.md)
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/csharp/csharp.instructions.md) - .NET applications with modern C# patterns and best practices.
 
 #### C++
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/cplusplus/cplusplus.instructions.md)
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/cplusplus/cplusplus.instructions.md) - Modern C++ development with STL, RAII, and performance optimization.
 
 #### Go
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/go/go.instructions.md)
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/go/go.instructions.md) - Go for microservices, CLI tools, and concurrent applications.
 
 #### Java
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/java/java.instructions.md)
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/java/java.instructions.md) - Enterprise Java development with Spring framework and modern patterns.
 
 #### JavaScript
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/javascript/javascript.instructions.md)
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/javascript/javascript.instructions.md) - Modern JavaScript with ES6+, NodeJS, and browser development.
 
 #### Kotlin
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/kotlin/kotlin.instructions.md)
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/kotlin/kotlin.instructions.md) - Kotlin for Android development and multi-platform projects.
 
 #### Lua
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/lua/lua.instructions.md)
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/lua/lua.instructions.md) - Lua scripting for embedded systems, game development, and automation.
 
 #### Python
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/python/python.instructions.md)
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/python/python.instructions.md) - Python development for web applications, data science, and automation.
 
 #### Rust
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/rust/rust.instructions.md)
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/rust/rust.instructions.md) - Systems programming with Rust's ownership model and memory safety.
 
 #### Swift
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/swift/swift.instructions.md)
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/swift/swift.instructions.md) - iOS and macOS development with Swift and SwiftUI.
 
 #### TypeScript
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/typescript/typescript.instructions.md)
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/typescript/typescript.instructions.md) - Typescript development for web and NodeJS applications.
 
 ### Framework / Library
 
 #### Cobra CLI (Go)
 
-- [Charmbracelet Bubbles CLI](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/frameworks/cobra-cli-go/charmbracelet-cli/copilot-instructions.md)
+- [Charmbracelet Bubbles CLI](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/frameworks/cobra-cli-go/charmbracelet-cli/copilot-instructions.md) - Interactive terminal applications with Charm's Bubble Tea framework and Golang Cobra CLI.
 
-#### Node.js (TypeScript)
+#### NodeJS (TypeScript)
 
-- [Azure Function App](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/frameworks/nodejs-typescript/azure-function-app/copilot-instructions.md)
-- [Express API](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/frameworks/nodejs-typescript/express-api/copilot-instructions.md)
+- [Azure Function App](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/frameworks/nodejs-typescript/azure-function-app/copilot-instructions.md) - Azure Function Apps using Typescript NodeJS.
+- [Express API](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/frameworks/nodejs-typescript/express-api/copilot-instructions.md) - REST API development with Express.js and TypeScript NodeJS.
 
 ### Tools
 
@@ -127,24 +127,42 @@
 
 ##### Drupal
 
-- [Standard Focus for Drupal 11](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/cms/drupal/11/standard-focus/copilot-instructions.md)
+- [Standard Focus for Drupal 11](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/cms/drupal/11/standard-focus/copilot-instructions.md) - Drupal 11 module and theme development
 
 #### Infra as Code (IaC)
 
 ##### Terraform
 
 - [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/infra-as-code/terraform/standard-focus/copilot-instructions.md)
-- [Atmos](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/infra-as-code/terraform/atmos/copilot-instructions.md)
-
-### Prompts
+- [Atmos](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/infra-as-code/terraform/atmos/copilot-instructions.md) - Terraform workflow orchestration with Atmos framework
 
 #### AI Development Tasks
 
-A comprehensive workflow for AI-assisted development featuring structured approaches to planning, task generation, and execution:
+A comprehensive workflow for AI-assisted development featuring structured approaches to planning, task generation, and execution.
 
-- [PRD Creation](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/workflows/ai-development-tasks/prd-creation/prd-creation.instructions.md) - Create detailed Product Requirements Documents. ([prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/prd-creation/prd-creation.prompt.md))
-- [Task Generation](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/workflows/ai-development-tasks/task-generation/task-generation.instructions.md) - Break PRDs into actionable development tasks. ([prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/task-generation/task-generation.prompt.md))
-- [Task Execution](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/workflows/ai-development-tasks/task-execution/task-execution.instructions.md) - Systematic task execution with proper testing and git practices. ([prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/task-execution/task-execution.prompt.md))
+- [PRD Creation](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/workflows/ai-development-tasks/prd-creation/prd-creation.instructions.md) - Create detailed Product Requirements Documents.
+- [Task Generation](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/workflows/ai-development-tasks/task-generation/task-generation.instructions.md) - Break PRDs into actionable development tasks.
+- [Task Execution](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/workflows/ai-development-tasks/task-execution/task-execution.instructions.md) - Systematic task execution with proper testing and git practices.
+
+## Prompts
+
+Prompts are reusable tasks or workflow instructions that help guide Copilot to perform specific actions or generate certain outputs.
+
+### AI Development Tasks
+
+A comprehensive workflow for AI-assisted development featuring structured approaches to planning, task generation, and execution.
+
+- ([PRD Creation Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/prd-creation/prd-creation.prompt.md))
+- ([Task Generation Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/task-generation/task-generation.prompt.md))
+- ([Task Execution Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/task-execution/task-execution.prompt.md))
+
+## Chatmodes
+
+Chat modes in VS Code are predefined settings that customize the Copilots behavior for tasks like asking questions, editing code, or autonomous coding. You can switch between modes anytime in the Chat view based on your needs.
+
+### AI Development Tasks
+
+- [PRD Creation](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/chatmodes/ai-development-tasks/prd-creation.chatmode.md) - Build Product Requirements Document (PRD).
 
 ## How to Use
 
@@ -162,9 +180,11 @@ A comprehensive workflow for AI-assisted development featuring structured approa
 
 #### File Types
 
-**`.instructions.md`**: Contextual instructions that apply to specific files or file types.
+**`.instructions.md`** - Contextual instructions that apply to specific files or file types.
 
-**`.prompt.md`**: Reusable prompts for specific tasks or workflows.
+**`.prompt.md`** - Reusable prompts for specific tasks or workflows.
+
+**`.chatmodes.md`** - 
 
 **Front matter**: Use YAML front matter to specify metadata like `applyTo`, `mode`, and `description`.
 
@@ -172,4 +192,4 @@ A comprehensive workflow for AI-assisted development featuring structured approa
 
 ## Contributing
 
-All contributions are welcome! If you would like to share instruction files (`.instructions.md`) or prompt files (`.prompt.md`), see the [contribution guide](CONTRIBUTING.md) for details.
+All contributions are welcome! If you would like to share instruction files (`.instructions.md`), prompt files (`.prompt.md`) or chatmodes (`.chatmode.md`), see the [contribution guide](CONTRIBUTING.md) for details.
