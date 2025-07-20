@@ -33,48 +33,48 @@ When a user presents a feature idea, ask clarifying questions about:
 
 Create a structured PRD with these sections:
 
-**Introduction/Overview**
+#### Introduction/Overview
 
 - Brief description and context
 - Why this feature is needed
 
-**Goals**
+#### Goals
 
 - Primary objectives
 - Business value and impact
 
-**User Stories**
+#### User Stories
 
 - Detailed user scenarios
 - Clear acceptance criteria for each story
 
-**Functional Requirements**
+#### Functional Requirements
 
 - Specific features and capabilities
 - Detailed behavior specifications
 
-**Non-Goals**
+#### Non-Goals
 
 - Explicitly excluded features
 - Future considerations
 
-**Design Considerations**
+#### Design Considerations
 
 - UI/UX requirements
 - User experience constraints
 
-**Technical Considerations**
+#### Technical Considerations
 
 - Performance requirements
 - Security needs
 - Scalability considerations
 
-**Success Metrics**
+#### Success Metrics
 
 - Measurable outcomes
 - Key Performance Indicators (KPIs)
 
-**Open Questions**
+#### Open Questions
 
 - Items requiring further clarification
 - Dependencies and assumptions

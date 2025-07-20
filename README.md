@@ -32,11 +32,10 @@
   - [Language & Stack](#language--stack)
   - [Framework / Library](#framework--library)
   - [Tools](#tools)
-  - [Workflows](#workflows)
 - [Prompts](#prompts)
-  - [AI Development Tasks](#ai-development-tasks-1)
+  - [AI Development Tasks](#ai-development-tasks)
 - [Chatmodes](#chatmodes)
-  - [AI Development Tasks](#ai-development-tasks-2)
+  - [AI Development Mode](#ai-development-mode)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
 
@@ -66,7 +65,7 @@ Instructions provides Copilot with repository-specific context, such as coding s
 
 - [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/c/c.instructions.md) - System libraries, CLI tools, and embedded applications with POSIX/GNU libc.
 
-#### C #
+#### C-Sharp
 
 - [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/csharp/csharp.instructions.md) - .NET applications with modern C# patterns and best practices.
 
@@ -136,7 +135,7 @@ Instructions provides Copilot with repository-specific context, such as coding s
 - [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/infra-as-code/terraform/standard-focus/copilot-instructions.md)
 - [Atmos](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/infra-as-code/terraform/atmos/copilot-instructions.md) - Terraform workflow orchestration with Atmos framework
 
-#### AI Development Tasks
+#### AI Development Instructions
 
 A comprehensive workflow for AI-assisted development featuring structured approaches to planning, task generation, and execution.
 
@@ -160,7 +159,7 @@ A comprehensive workflow for AI-assisted development featuring structured approa
 
 Chat modes in VS Code are predefined settings that customize the Copilots behavior for tasks like asking questions, editing code, or autonomous coding. You can switch between modes anytime in the Chat view based on your needs.
 
-### AI Development Tasks
+### AI Development Mode
 
 - [PRD Creation](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/chatmodes/ai-development-tasks/prd-creation.chatmode.md) - Build Product Requirements Document (PRD).
 
