@@ -181,13 +181,25 @@ Chat modes in VS Code are predefined settings that customize the Copilots behavi
 
 #### File Types
 
-- `.instructions.md` - Contextual instructions that apply to specific files or file types.
-- `.prompt.md` - Reusable prompts for specific tasks or workflows.
-- `.chatmode.md` - Predefined configurations that enable you to tailor the AI chat behavior in VS Code for specific tasks.
+##### Instruction Files
 
-**Front matter**: Use YAML front matter to specify metadata like `applyTo`, `mode`, and `description`.
+`.instructions.md` - Contextual instructions that apply to specific files or file types.
 
-**Tip**: Read more about the latest naming conventions in the VS Code documentation.
+##### Prompt Files
+
+`.prompt.md` - Reusable prompts for specific tasks or workflows.
+
+##### Chatmode Files
+
+`.chatmode.md` - Predefined configurations that enable you to tailor the AI chat behavior in VS Code for specific tasks.
+
+##### Formatting
+
+Use YAML front matter to specify metadata like `applyTo`, `mode`, and `description`.
+
+##### Tip
+
+Read more about the latest naming conventions in the VS Code documentation.
 
 ## Contributing
 
