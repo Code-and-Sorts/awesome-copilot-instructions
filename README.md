@@ -153,9 +153,9 @@ Prompts are reusable tasks or workflow instructions that help guide Copilot to p
 
 A comprehensive workflow for AI-assisted development featuring structured approaches to planning, task generation, and execution.
 
-- [PRD Creation Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/prd-creation.prompt.md)
-- [Task Generation Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/task-generation.prompt.md)
-- [Task Execution Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/task-execution.prompt.md)
+- [PRD Creation Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/prd-creation.prompt.md) - Create detailed Product Requirements Documents using prompt tasks.
+- [Task Generation Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/task-generation.prompt.md) - Break PRDs into actionable development tasks using prompt tasks.
+- [Task Execution Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/task-execution.prompt.md) - Systematic task execution with proper testing and git practices using prompt tasks.
 
 ## Chatmodes
 
@@ -172,7 +172,7 @@ Chat modes in VS Code are predefined settings that customize the Copilots behavi
 1. Hover over the Copilot icon in the Status Bar and select Set up Copilot.
 2. Select **Sign in** to sign in to your GitHub account or **Use Copilot** if you're already signed in.
 
-**Tip**: Read more about setup [here](https://code.visualstudio.com/docs/copilot/setup).
+**Tip**: Read more about setting up [VS Code Copilot](https://code.visualstudio.com/docs/copilot/setup).
 
 ### Setup Instructions
 
