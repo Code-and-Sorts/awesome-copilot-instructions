@@ -176,8 +176,11 @@ Chat modes in VS Code are predefined settings that customize the Copilots behavi
 
 ### Setup Instructions
 
-1. Set the `github.copilot.chat.codeGeneration.useInstructionFiles` setting to `true` to instruct Copilot in VS Code to use the custom instructions file.
-2. Create instruction files using the latest naming conventions: **Workspace instructions** (place `*.instructions.md` files in `.github/instructions/` directory), **Workspace prompts** (place `*.prompt.md` files in `.github/prompts/` directory), or **Legacy format** (`.github/copilot-instructions.md` still supported).
+1. Create instruction files using the latest naming conventions:
+    1. Workspace instructions (place `*.instructions.md` files in `.github/instructions/` directory).
+    2. Workspace prompts (place `*.prompt.md` files in `.github/prompts/` directory).
+    3. Workspace chat modes (place `*.chatmode.md` files in `.github/chatmodes` directory).
+    4. Workspace single instruction (place `copilot-instructions.md` in `.github` directory).
 
 #### File Types
 
@@ -196,10 +199,6 @@ Chat modes in VS Code are predefined settings that customize the Copilots behavi
 ##### Formatting
 
 Use YAML front matter to specify metadata like `applyTo`, `mode`, and `description`.
-
-##### Tip
-
-Read more about the latest naming conventions in the VS Code documentation.
 
 ## Contributing
 
