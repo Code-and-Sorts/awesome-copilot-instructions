@@ -12,7 +12,7 @@
 <!--lint enable remark-lint:awesome-badge-->
 
 <p align="center">
-  <a href="hhttps://awesome.re">
+  <a href="https://awesome.re">
     <img src="https://awesome.re/badge-flat2.svg" alt="Awesome">
   </a>
 </p>
