@@ -37,7 +37,6 @@
 - [Chatmodes](#chatmodes)
   - [AI Development Mode](#ai-development-mode)
 - [How to Use](#how-to-use)
-- [Contributing](#contributing)
 
 ## Why Copilot Instructions
 
@@ -83,7 +82,7 @@ Instructions provides Copilot with repository-specific context, such as coding s
 
 #### JavaScript
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/javascript/javascript.instructions.md) - Modern JavaScript with ES6+, NodeJS, and browser development.
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/javascript/javascript.instructions.md) - Modern JavaScript with ES6+, Node.js, and browser development.
 
 #### Kotlin
 
@@ -107,18 +106,18 @@ Instructions provides Copilot with repository-specific context, such as coding s
 
 #### TypeScript
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/typescript/typescript.instructions.md) - Typescript development for web and NodeJS applications.
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/languages/typescript/typescript.instructions.md) - Typescript development for web and Node.js applications.
 
 ### Framework / Library
 
 #### Cobra CLI (Go)
 
-- [Charmbracelet Bubbles CLI](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/frameworks/cobra-cli-go/charmbracelet-cli/copilot-instructions.md) - Interactive terminal applications with Charm's Bubble Tea framework and Golang Cobra CLI.
+- [Charmbracelet Bubbles CLI](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/frameworks/cobra-cli-go/charmbracelet-cli/charmbracelet-cli.instructions.md) - Interactive terminal applications with Charm's Bubble Tea framework and Golang Cobra CLI.
 
-#### NodeJS (TypeScript)
+#### Node.js (TypeScript)
 
-- [Azure Function App](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/frameworks/nodejs-typescript/azure-function-app/copilot-instructions.md) - Azure Function Apps using Typescript NodeJS.
-- [Express API](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/frameworks/nodejs-typescript/express-api/copilot-instructions.md) - REST API development with Express.js and TypeScript NodeJS.
+- [Azure Function App](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/frameworks/nodejs-typescript/azure-function-app/azure-function-app.instructions.md) - Azure Function Apps using Typescript Node.js.
+- [Express API](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/frameworks/nodejs-typescript/express-api/express-api.instructions.md) - REST API development with Express.js and TypeScript Node.js.
 
 ### Tools
 
@@ -126,14 +125,14 @@ Instructions provides Copilot with repository-specific context, such as coding s
 
 ##### Drupal
 
-- [Standard Focus for Drupal 11](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/cms/drupal/11/standard-focus/copilot-instructions.md) - Drupal 11 module and theme development
+- [Standard Focus for Drupal 11](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/cms/drupal/11/standard-focus/drupal-11.instructions.md) - Drupal 11 module and theme development.
 
 #### Infra as Code (IaC)
 
 ##### Terraform
 
-- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/infra-as-code/terraform/standard-focus/copilot-instructions.md)
-- [Atmos](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/infra-as-code/terraform/atmos/copilot-instructions.md) - Terraform workflow orchestration with Atmos framework
+- [Standard Focus](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/infra-as-code/terraform/standard-focus/terraform.instructions.md) - Standard terraform instructions.
+- [Atmos](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/instructions/tools/infra-as-code/terraform/atmos/atmos-terraform.instructions.md) - Terraform workflow orchestration with Atmos framework.
 
 #### AI Development Instructions
 
