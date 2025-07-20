@@ -153,9 +153,9 @@ Prompts are reusable tasks or workflow instructions that help guide Copilot to p
 
 A comprehensive workflow for AI-assisted development featuring structured approaches to planning, task generation, and execution.
 
-- [PRD Creation Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/prd-creation.prompt.md)
-- [Task Generation Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/task-generation.prompt.md)
-- [Task Execution Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/task-execution.prompt.md)
+- [PRD Creation Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/prd-creation.prompt.md) - Create detailed Product Requirements Documents using prompt tasks.
+- [Task Generation Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/task-generation.prompt.md) - Break PRDs into actionable development tasks using prompt tasks.
+- [Task Execution Prompt](https://github.com/Code-and-Sorts/awesome-copilot-instructions/tree/main/prompts/ai-development-tasks/task-execution.prompt.md) - Systematic task execution with proper testing and git practices using prompt tasks.
 
 ## Chatmodes
 
@@ -172,12 +172,15 @@ Chat modes in VS Code are predefined settings that customize the Copilots behavi
 1. Hover over the Copilot icon in the Status Bar and select Set up Copilot.
 2. Select **Sign in** to sign in to your GitHub account or **Use Copilot** if you're already signed in.
 
-**Tip**: Read more about setup [here](https://code.visualstudio.com/docs/copilot/setup).
+**Tip**: Read more about setting up [VS Code Copilot](https://code.visualstudio.com/docs/copilot/setup).
 
 ### Setup Instructions
 
-1. Set the `github.copilot.chat.codeGeneration.useInstructionFiles` setting to `true` to instruct Copilot in VS Code to use the custom instructions file.
-2. Create instruction files using the latest naming conventions: **Workspace instructions** (place `*.instructions.md` files in `.github/instructions/` directory), **Workspace prompts** (place `*.prompt.md` files in `.github/prompts/` directory), or **Legacy format** (`.github/copilot-instructions.md` still supported).
+1. Create instruction files using the latest naming conventions:
+    1. Workspace instructions (place `*.instructions.md` files in `.github/instructions/` directory).
+    2. Workspace prompts (place `*.prompt.md` files in `.github/prompts/` directory).
+    3. Workspace chat modes (place `*.chatmode.md` files in `.github/chatmodes` directory).
+    4. Workspace single instruction (place `copilot-instructions.md` in `.github` directory).
 
 #### File Types
 
@@ -196,10 +199,6 @@ Chat modes in VS Code are predefined settings that customize the Copilots behavi
 ##### Formatting
 
 Use YAML front matter to specify metadata like `applyTo`, `mode`, and `description`.
-
-##### Tip
-
-Read more about the latest naming conventions in the VS Code documentation.
 
 ## Contributing
 
